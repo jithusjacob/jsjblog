@@ -146,5 +146,5 @@ So Now my Hugo blog is ready to be accessed on `https://jithusjacob.github.io/`
 You can also see the above steps in my youtube video 
 
 
-{{< youtube id="gplez4_o99g" title="Hugo with Git Hub Pages on Windows" >}}
+{{< youtube id="JvvFd1JBeQU" title="Hugo with Git Hub Pages on Windows" >}}
 

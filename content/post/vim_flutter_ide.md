@@ -42,7 +42,10 @@ Since I did not have python in my system,so I installed Python 3.9.5 using
 ```
 choco install python
 ```
-Now I don't get any errors when I open Neovim.
+After the install windows was not detecting python. So I installed python from
+with the python installer from 
+[python](https://www.python.org/downloads/windows/) site.Now windows is
+detecting python.Also I don't get any errors when I open Neovim.
 
 ## Install Coc extension
 
@@ -151,3 +154,4 @@ There are many more Flutter commands you can find more details at
 
 You can find the youtube video for the above steps below
 
+{{< youtube id="ZGnOsaBJiFQ" title="Setup Vim as a Flutter IDE" >}}

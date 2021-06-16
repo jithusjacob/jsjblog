@@ -2,7 +2,7 @@
 title: "Hugo with Git Hub Pages on Windows"
 date: 2021-06-14T13:16:19+05:30
 draft: false
-tags: ["Hugo","Git Hub Pages",Windows]
+tags: ["Hugo","Git Hub Pages","Windows"]
 categories: ["Hugo","Git","Windows"]
 ---
 
@@ -10,7 +10,7 @@ I created this blog using Hugo and Git Hub Pages on windows.Hugo is a static sit
 written in Go language.Git Hub Pages lets you host the static sites created using Hugo.
 
 ### Installing Hugo
-First install Hugo on windows.I used the [chocolate](https://chocolatey.org/) package manager to install Hugo on
+First install Hugo on windows.I used the [chocolatey](https://chocolatey.org/) package manager to install Hugo on
 windows.There are two versions available to install.I installed the extended version as it is required if you plan
 to customize the themes you will be using.
 

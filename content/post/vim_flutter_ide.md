@@ -1,8 +1,8 @@
 ---
-title: "Setup Vim as a Flutter IDE"
+title: "Setup Vim as a Flutter IDE using coc-nvim"
 date: 2021-06-15T15:41:34+05:30
 draft: false
-tags: ["Vim","Flutter","IDE"]
+tags: ["Vim","Flutter","IDE","coc-nvim"]
 categories: ["Vim","Flutter","IDE"]
 ---
 

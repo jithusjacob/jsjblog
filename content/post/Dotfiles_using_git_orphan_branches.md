@@ -64,7 +64,7 @@ So now if I want to clone these files I can use the below command
 git clone --branch nvim_lsp_lua https://github.com/jithusjacob/dotfiles.git .
 ```
 
-Some other commands that might be Required  
+Some other commands that might be required  are as below    
 **git push -d origin <branch_name>** -- To delete a branch from remote  
 **git branch -r** -- To list the branches  
 **git branch** -- To check the current branch  
@@ -80,4 +80,4 @@ orphan branch for that.
 You can also see the above steps in my youtube video 
 
 
-{{< youtube id="JvvFd1JBeQU" title="Hugo with Git Hub Pages on Windows" >}}
+{{< youtube id="QqRKUYUMcxY" title="Hugo with Git Hub Pages on Windows" >}}

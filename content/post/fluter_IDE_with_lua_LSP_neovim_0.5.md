@@ -1,9 +1,9 @@
 ---
-title: "Fluter IDE with Neovim 0.5 ,built in LSP and lua"
+title: "Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows"
 date: 2021-08-02T09:49:50+05:30
 draft: false
-tags: ["NeoVim","Flutter","IDE","LSP","lua"]
-categories: ["NeoVim","Flutter","IDE","lua"]
+tags: ["NeoVim","Flutter","IDE","LSP","lua","windows"]
+categories: ["NeoVim","Flutter","IDE","lua","windows"]
 ---
 ## Introduction
 So I recently upgraded to NeoVim 0.5 stable release.This release has a inbuilt

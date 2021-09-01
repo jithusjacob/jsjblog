@@ -1,9 +1,9 @@
 ---
-title: "Setup Vim as a Flutter IDE using coc-nvim"
+title: "Setup Vim as a Flutter IDE using coc-nvim on windows"
 date: 2021-06-15T15:41:34+05:30
 draft: false
-tags: ["Vim","Flutter","IDE","coc-nvim"]
-categories: ["Vim","Flutter","IDE"]
+tags: ["Vim","Flutter","IDE","coc-nvim","windows"]
+categories: ["Vim","Flutter","IDE","windows"]
 ---
 
 I recently started using Neovim as my text editor.Also right now I am learning Flutter to 

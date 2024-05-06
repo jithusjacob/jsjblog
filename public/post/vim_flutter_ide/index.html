@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/custom.js" defer></script>
+  </head>
+  <body>
+    <div class="menu_icon_box" onclick="toggleSideBar(this)">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="header_heading">Notes</h3>
+      </div>
+
+      <aside class="sidebar">
+  <nav>
+    <h3 class="sidebar_heading">Note Books</h3>
+
+    
+    
+      
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+      
+      
+    
+
+    
+      <ul class="books">
+        <li>
+          <a
+            data-level-id="programming"
+            data-level-class="books"
+            onclick="downLevel(this)"
+            href="#!">
+            Programming
+          </a>
+        </li>
+      </ul>
+      <ul class="sections" id="programming">
+        <li>
+          <a
+            href="#!"
+            data-parent-class="books"
+            data-level-class="sections"
+            onclick="upLevel(this)"
+            >&lt;&lt;</a
+          >
+        </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="flutterprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Flutter</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="vimprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Vim</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="Gitprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Git</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="hugoprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Hugo</a
+            >
+          </li>
+        
+
+      </ul>
+    
+
+    
+      
+        
+        <ul class="pages" id="flutterprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Flutter theme and responsive UI"
+                      href="/post/flutter_theme_responsive_ui/"
+                      >Flutter theme and responsive UI</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows"
+                      href="/post/fluter_ide_with_lua_lsp_neovim_0.5/"
+                      >Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Setup Vim as a Flutter IDE using coc-nvim on windows"
+                      href="/post/vim_flutter_ide/"
+                      >Setup Vim as a Flutter IDE using coc-nvim on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="vimprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Creating Vim binding for checkbox using regex for lua configuration"
+                      href="/post/vim_checkbox_lua/"
+                      >Creating Vim binding for checkbox using regex for lua configuration</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Vim folding to arrange NeoVim config file"
+                      href="/post/vim_folding/"
+                      >Vim folding to arrange NeoVim config file</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Install Neovim on Windows"
+                      href="/post/neovim_install/"
+                      >Install Neovim on Windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="Gitprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Storing Dotfiles on git repository using git orphan branches"
+                      href="/post/dotfiles_using_git_orphan_branches/"
+                      >Storing Dotfiles on git repository using git orphan branches</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="hugoprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Hugo with Git Hub Pages on Windows"
+                      href="/post/hugo_githubpages_window/"
+                      >Hugo with Git Hub Pages on Windows</a
+                    >
+                  </li>
+                
+              
+            
+
+          
+
+        </ul>
+      
+    
+
+  </nav>
+</aside>
+
+      <main class="content">
+        
+  <h2>Setup Vim as a Flutter IDE using coc-nvim on windows</h2>
+  <span class="date">
+    15 Jun 2021
+  </span>
+  <p>I recently started using Neovim as my text editor.Also right now I am learning Flutter to
+create a mobile application for my personal project. So I decided to setup Neovim as a
+Flutter IDE.With this I can practice Vim with Flutter.</p>
+<h3 id="install-plugins">Install Plugins</h3>
+<p>To setup Neovim as Flutter IDE we need to use <a href="https://github.com/neoclide/coc.nvim">coc.nvim</a>
+plugin .Also for formatting, I am using the
+<a href="https://github.com/dart-lang/dart-vim-plugin">dart_vim_plugin</a>.We also need the snippets to
+be loaded like the ones for stateless/stateful widget.For this we will
+use <a href="https://github.com/honza/vim-snippets">honza/vim-snippets</a>.
+So I installed these three plugins using the plugin manager.</p>
+<pre tabindex="0"><code>Plug &#39;honza/vim-snippets&#39;
+Plug &#39;dart-lang/dart-vim-plugin&#39;
+Plug &#39;neoclide/coc.nvim&#39;, {&#39;branch&#39;: &#39;release&#39;}
+</code></pre><p>After installing the plugins when I open Neovim I get the below error</p>
+<blockquote>
+<p>[coc.nvim] &ldquo;node&rdquo; is not executable, checkout <a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a></p>
+</blockquote>
+<p>So as the error says I installed node on my system using the
+<a href="https://chocolatey.org/">chocolatey</a>
+package manager for windows.You will need to run the power shell as administrator to install.</p>
+<pre tabindex="0"><code>choco install nodejs
+</code></pre><p>After installing node the next error I got when I opened Neovim is related to by python3.</p>
+<blockquote>
+<p>[coc.nvim] Error on execute python script: request error nvim_command - Vim(pyxfile):
+E319: No &ldquo;python3&rdquo; provider found. Run &ldquo;:checkhealth provider&rdquo;</p>
+</blockquote>
+<p>Since I did not have python in my system,so I installed Python 3.9.5 using
+<a href="https://chocolatey.org/">chocolatey</a> package manager in power shell as administrator.</p>
+<pre tabindex="0"><code>choco install python
+</code></pre><p>After the install windows was not detecting python. So I installed python from
+with the python installer from
+<a href="https://www.python.org/downloads/windows/">python</a> site.Now windows is
+detecting python.Also I don&rsquo;t get any errors when I open Neovim.</p>
+<h2 id="install-coc-extension">Install Coc extension</h2>
+<p>Next we need to install the
+<a href="https://github.com/iamcco/coc-flutter">coc-flutter</a> extension.We can do this in different
+ways.I have added the extension name to global extension variable in <code>init.vim</code> config file.
+Coc will install the extensions after coc.vim service is started.Also I will also add the
+<a href="https://github.com/neoclide/coc-snippets">coc-snippets</a> to load different snippets stored.
+<a href="https://github.com/neoclide/coc-yaml">coc-yaml</a> extension for yaml support.If you need any
+other language or feature support,if the extension is available you can append it to global
+extension variable.</p>
+<pre tabindex="0"><code>let g:coc_global_extensions = [
+  \ &#39;coc-flutter&#39;,
+  \ &#39;coc-snippets&#39;,
+  \ &#39;coc-yaml&#39;,
+  \]
+</code></pre><h2 id="coc-key-bindings-for-flutter">Coc Key Bindings for Flutter</h2>
+<p>Next I will setup Coc key bindings for Flutter</p>
+<h3 id="tab-and-shifttab-key-to-selectchange-selection-and-auto-completion">TAB and SHIFT+TAB key to select,change selection and auto completion.</h3>
+<p>Once all the above setup is completed,we will start getting suggestion whenever we type.
+We bind the TAB key to select option,or next option in the list.While option is selected it
+will auto complete that selection.Auto complete will change as the suggestion selected
+changes.We will bind the SHIFT+TAB key to go in backward direction.This will only happen for
+suggestions and not for snippets.For snippets auto completion after selection you will need
+to press ENTER key.They key binding is as below.</p>
+<p><strong>NOTE: Use command :verbose imap <!-- raw HTML omitted --> to make sure tab is not mapped by any other plugin</strong></p>
+<pre tabindex="0"><code>inoremap &lt;silent&gt;&lt;expr&gt; &lt;TAB&gt;
+      \ pumvisible() ? &#34;\&lt;C-n&gt;&#34; :
+      \ &lt;SID&gt;check_back_space() ? &#34;\&lt;TAB&gt;&#34; :
+      \ coc#refresh()
+inoremap &lt;expr&gt;&lt;S-TAB&gt; pumvisible() ? &#34;\&lt;C-p&gt;&#34; : &#34;\&lt;C-h&gt;&#34;
+
+function! s:check_back_space() abort
+  	  let col = col(&#39;.&#39;) - 1
+  	    return !col || getline(&#39;.&#39;)[col - 1]  =~# &#39;\s&#39;
+endfunction
+</code></pre><h3 id="enter-key-to-auto-select-the-first-suggestion-and-complete-it">ENTER Key to auto select the first suggestion and complete it.</h3>
+<pre tabindex="0"><code>inoremap &lt;silent&gt;&lt;expr&gt; &lt;cr&gt; pumvisible() ? coc#_select_confirm()
+                              \: &#34;\&lt;C-g&gt;u\&lt;CR&gt;\&lt;c-r&gt;=coc#on_enter()\&lt;CR&gt;&#34;
+</code></pre><h3 id="code-action-binding">Code Action binding</h3>
+<p>Next we bind keys for code action like wrap with widget,wrap with center etc.</p>
+<pre tabindex="0"><code> xmap &lt;leader&gt;a  &lt;Plug&gt;(coc-codeaction-selected)
+ nmap &lt;leader&gt;a  &lt;Plug&gt;(coc-codeaction-selected)
+</code></pre><p>So code action can be used like <code>&lt;leader&gt;aap</code> for current paragraph, <code>&lt;leader&gt;aw</code> for the
+current word. My leader key is SPACE.</p>
+<h3 id="format-the-flutter-code-on-saving-and-max-line-length-of-80">Format the Flutter code on Saving and max line length of 80</h3>
+<pre tabindex="0"><code> let g:dart_format_on_save = 1
+ let g:dartfmt_options = [&#39;--fix&#39;, &#39;--line-length 80&#39;]
+</code></pre><h3 id="coc-commands">Coc commands</h3>
+<pre tabindex="0"><code>nmap &lt;silent&gt; gd &lt;Plug&gt;(coc-definition)
+nmap &lt;silent&gt; gy &lt;Plug&gt;(coc-type-definition)
+nmap &lt;silent&gt; gi &lt;Plug&gt;(coc-implementation)
+nmap &lt;silent&gt; gr &lt;Plug&gt;(coc-references)
+nmap &lt;leader&gt;rn &lt;Plug&gt;(coc-rename)
+</code></pre><h3 id="use-k-how-documentation-in-preview-window">Use K how documentation in preview window</h3>
+<pre tabindex="0"><code>nnoremap &lt;silent&gt; K :call &lt;SID&gt;show_documentation()&lt;CR&gt;
+function! s:show_documentation()
+  if (index([&#39;vim&#39;,&#39;help&#39;], &amp;filetype) &gt;= 0)
+    execute &#39;h &#39;.expand(&#39;&lt;cword&gt;&#39;)
+  elseif (coc#rpc#ready())
+    call CocActionAsync(&#39;doHover&#39;)
+  else
+    execute &#39;!&#39; . &amp;keywordprg . &#34; &#34; . expand(&#39;&lt;cword&gt;&#39;)
+  endif
+endfunction&#34;
+</code></pre><h3 id="flutter-commands">Flutter commands</h3>
+<pre tabindex="0"><code>nnoremap &lt;leader&gt;fe :CocCommand flutter.emulators &lt;CR&gt;
+nnoremap &lt;leader&gt;fd :below new output:///flutter-dev &lt;CR&gt;
+nnoremap &lt;leader&gt;fr :CocCommand flutter.run &lt;CR&gt;
+</code></pre><p>There are many more Flutter commands you can find more details at
+<a href="https://github.com/iamcco/coc-flutter">https://github.com/iamcco/coc-flutter</a>.</p>
+<p>You can find the youtube video for the above steps below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ZGnOsaBJiFQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Setup Vim as a Flutter IDE"></iframe>
+</div>
+
+
+
+      </main>
+    </div>
+  </body>
+</html>

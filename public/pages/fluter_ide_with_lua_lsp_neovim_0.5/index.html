@@ -1,0 +1,769 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/custom.js" defer></script>
+  </head>
+  <body>
+    <div class="menu_icon_box" onclick="toggleSideBar(this)">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="header_heading">Notes</h3>
+      </div>
+
+      <aside class="sidebar">
+  <nav>
+    <h3 class="sidebar_heading">Note Books</h3>
+
+    
+    
+      
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+      
+      
+    
+
+    
+      <ul class="books">
+        <li>
+          <a
+            data-level-id="programming"
+            data-level-class="books"
+            onclick="downLevel(this)"
+            href="#!">
+            Programming
+          </a>
+        </li>
+      </ul>
+      <ul class="sections" id="programming">
+        <li>
+          <a
+            href="#!"
+            data-parent-class="books"
+            data-level-class="sections"
+            onclick="upLevel(this)"
+            >&lt;&lt;</a
+          >
+        </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="flutterprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Flutter</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="vimprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Vim</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="Gitprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Git</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="hugoprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Hugo</a
+            >
+          </li>
+        
+
+      </ul>
+    
+
+    
+      
+        
+        <ul class="pages" id="flutterprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Flutter theme and responsive UI"
+                      href="/pages/flutter_theme_responsive_ui/"
+                      >Flutter theme and responsive UI</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows"
+                      href="/pages/fluter_ide_with_lua_lsp_neovim_0.5/"
+                      >Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Setup Vim as a Flutter IDE using coc-nvim on windows"
+                      href="/pages/vim_flutter_ide/"
+                      >Setup Vim as a Flutter IDE using coc-nvim on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="vimprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Creating Vim binding for checkbox using regex for lua configuration"
+                      href="/pages/vim_checkbox_lua/"
+                      >Creating Vim binding for checkbox using regex for lua configuration</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Vim folding to arrange NeoVim config file"
+                      href="/pages/vim_folding/"
+                      >Vim folding to arrange NeoVim config file</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Install Neovim on Windows"
+                      href="/pages/neovim_install/"
+                      >Install Neovim on Windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="Gitprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Storing Dotfiles on git repository using git orphan branches"
+                      href="/pages/dotfiles_using_git_orphan_branches/"
+                      >Storing Dotfiles on git repository using git orphan branches</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="hugoprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Hugo with Git Hub Pages on Windows"
+                      href="/pages/hugo_githubpages_window/"
+                      >Hugo with Git Hub Pages on Windows</a
+                    >
+                  </li>
+                
+              
+            
+
+          
+
+        </ul>
+      
+    
+
+  </nav>
+</aside>
+
+      <main class="content">
+        
+  <h2>Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</h2>
+  <span class="date">
+    02 Aug 2021
+  </span>
+  <h2 id="introduction">Introduction</h2>
+<p>So I recently upgraded to NeoVim 0.5 stable release.This release has a inbuilt
+LSP(Language server protocol) which is a client to LSP servers.It also includes
+a Lua framework for building enhanced LSP tools.</p>
+<p>I used <a href="https://github.com/neoclide/coc.nvim">coc-nvim</a> earlier as LSP client to
+interact with <a href="https://github.com/dart-lang/sdk/blob/master/pkg/analysis_server/tool/lsp_spec/README.md">Dart LSP server</a>
+which it does automatically using
+<a href="https://github.com/iamcco/coc-flutter">coc-flutter</a> extension.If you want to
+know how to do that read my previous
+<a href="https://jithusjacob.github.io/post/vim_flutter_ide/">blog post</a> for more
+details.</p>
+<p>The <a href="https://github.com/neoclide/coc.nvim">coc-nvim</a> and
+<a href="https://github.com/iamcco/coc-flutter">coc-flutter</a> are great tools with lot
+of stability and support.So I might still use it.But I plan to try out setting
+up Neovim Flutter IDE with its inbuilt LSP and see if its easy to setup and
+worth using.Below are the steps for the same</p>
+<h2 id="neovim-configuration-folder-structure-for-lua">NeoVim configuration folder structure for lua.</h2>
+<p>Since we are migrating to lua based configuration.I have setup my nvim folder as
+below.Its not necessary to do this.You can also use old folder structure you have
+and use vim script.Just insert the lua script in vim script using lua tags as
+below</p>
+<pre tabindex="0"><code>lua &lt;&lt; EOF
+-- insert lua code here
+EOF
+</code></pre><p>For more details on migrating and different options check out this <a href="https://github.com/nanotee/nvim-lua-guide">guide</a></p>
+<p>So I have create the below folder structure in my nvim folder</p>
+<pre tabindex="0"><code>~\AppData\Local\nvim\..
+  lua
+    colorscheme.lua
+    init.lua
+    keymappings.lua
+    nvim_tree.lua
+    plugins.lua
+    settings.lua
+    telescope.lua
+  init.vim
+</code></pre><p>Here all the lua files are present in lua folder.In <code>init.lua</code> all the lua files
+are linked as below</p>
+<pre tabindex="0"><code>-- Map leader to space
+  vim.g.mapleader = &#39; &#39;
+   require(&#39;plugins&#39;)
+   require(&#39;colorscheme&#39;)
+   require(&#39;nvim_tree&#39;)
+   require(&#39;telescope&#39;)
+   require(&#39;settings&#39;)
+   require(&#39;keymappings&#39;)
+</code></pre><p>So if I add any files in lua folder I need to mention that in <code>init.lua</code> , so
+that it can be linked to NeoVim.Next I link my <code>init.lua</code> with <code>init.vim</code> using
+the below command</p>
+<pre tabindex="0"><code>lua &lt;&lt; EOF
+require(&#39;init&#39;)
+EOF
+</code></pre><p>Actually we can use <code>init.lua</code> instead of <code>init.vim</code>.But since the lua feature
+is new so I am using <code>init.vim</code> in case there are some scenarios which I cannot
+do using lua.</p>
+<h2 id="plugin-manger-in-lua">Plugin Manger in lua</h2>
+<p>So since we are migrating to Neovim 0.5 with lua support .I will be using a
+package manager in lua.There are two options</p>
+<ol>
+<li><a href="https://github.com/wbthomason/packer.nvim">packer.nvim</a></li>
+<li><a href="https://github.com/savq/paq-nvim">paq-nvim</a></li>
+</ol>
+<p>I tried packer and found that it has lot of options and is little bit
+complicated.So I went with <a href="https://github.com/savq/paq-nvim">paq-nvim</a>.</p>
+<p>Note: If you are still using vim script for NeoVim configuration then you can
+still use your old plugin manager.</p>
+<h3 id="install-paq-plugin-manager-on-windows">Install paq plugin manager on windows</h3>
+<p>You install the paq plugin manager on windows using the below command.</p>
+<pre tabindex="0"><code>git clone https://github.com/savq/paq-nvim.git &#34;$env:LOCALAPPDATA\nvim-data\site\pack\paqs\start\paq-nvim&#34;
+</code></pre><h3 id="install-plugins">Install plugins</h3>
+<p>We can install plugins by giving the below commands in <code>init.lua</code>.I have instead
+given these commands in the plugins.lua file and given the <code>require('plugins')</code>
+command in the <code>init.lua</code>.</p>
+<pre tabindex="0"><code>require &#34;paq&#34; {
+    &#34;savq/paq-nvim&#34;;                  -- Let Paq manage itself
+    -- Auto Pair
+    &#34;jiangmiao/auto-pairs&#34;
+
+}
+</code></pre><p>After adding the above lines source your configuration
+(using :source % or :luafile %) or quit Neovim and open again and run :PaqInstall.
+For more details check <a href="https://github.com/savq/paq-nvim">paq-nvim</a> page.</p>
+<h2 id="connecting-dart-lsp-server-to-neovim-lsp-client">Connecting Dart LSP server to Neovim LSP client</h2>
+<h3 id="dart-language-server">Dart Language Server</h3>
+<p>Dart has its own language server.We can check that in <a href="https://github.com/dart-lang/sdk/blob/master/pkg/analysis_server/tool/lsp_spec/README.md">dart SDK github
+page</a>.
+This is downloaded if you have installed flutter in your system.</p>
+<p>To check if Dart language server is working we can use the below command</p>
+<pre tabindex="0"><code>dart C:\Users\jithu\Documents\flutter\bin\cache\dart-sdk\bin\snapshots\analysis_server.dart.snapshot
+</code></pre><p>The server gets started.</p>
+<h3 id="connecting-dart-language-server-to-nvim-lspconfig">Connecting Dart Language server to nvim lspconfig</h3>
+<p>We can connect to Dart Language server in 2 ways.</p>
+<ol>
+<li>Manually</li>
+<li>Using <a href="https://github.com/akinsho/flutter-tools.nvim">flutter-tools</a> plugin</li>
+</ol>
+<p>Note: I prefer the second option as
+<a href="https://github.com/akinsho/flutter-tools.nvim">flutter-tools</a> plugin.It has
+lot of flutter related features which we would need to setup manually in the
+first option.</p>
+<h4 id="manually">Manually</h4>
+<p>To connect the Dart Language server to Neovim manually we need to install
+<a href="https://github.com/neovim/nvim-lspconfig">nvim-lspconfig</a>and give the below
+lines in our <code>init.lua</code></p>
+<pre tabindex="0"><code>require&#39;lspconfig&#39;.dartls.setup{
+cmd = { &#34;dart&#34;, &#34;C:\\Users\\jithu\\Documents\\flutter\\bin\\cache\\dart-sdk\\bin\\snapshots\\analysis_server.dart.snapshot&#34;, &#34;--lsp&#34; },
+}
+</code></pre><p>This code is based on the configurations given for dart in
+<a href="https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#dartls">nvim lspconfig config page</a></p>
+<p>We need to ensure two things for the above command to work</p>
+<ol>
+<li>dart command is added to the environment variable.</li>
+<li>path to dart lsp server in windows is given with <code>\\</code> .This is specific to
+windows</li>
+</ol>
+<p>In order to automatically launch a language server, lspconfig searches up the
+directory tree from your current buffer to find a file matching the root_dir
+pattern defined in each server&rsquo;s configuration. For dartls as per
+<a href="https://github.com/neovim/nvim-lspconfig/blob/master/CONFIG.md#dartls">nvim lspconfig config page</a>
+the pattern it checks for is <code>pubspec.yaml</code></p>
+<p>After completing the above steps we can check if the LSP server is connected
+to Neovim using the below command.I opened a flutter project and gave the below
+command.</p>
+<pre tabindex="0"><code>:LspInfo
+</code></pre><p>This will give you the details of clients and LSP attached.</p>
+<h4 id="flutter-toolshttpsgithubcomakinshoflutter-toolsnvim"><a href="https://github.com/akinsho/flutter-tools.nvim">Flutter-tools</a></h4>
+<p>I use the second option because of the flutter related options available in the
+plugin.Install by adding the below lines in <code>plugins.lua</code> and quit neovim and
+open again and do :PaqInstall.</p>
+<pre tabindex="0"><code>{&#39;akinsho/flutter-tools.nvim&#39;, requires = &#39;nvim-lua/plenary.nvim&#39;};
+</code></pre><p>After install I created a file call <code>flutter.lua</code> under the lua folder and in
+that added the below line to setup the flutter tool plugin.</p>
+<pre tabindex="0"><code>require(&#34;flutter-tools&#34;).setup{}
+</code></pre><p>Also added the below line in my <code>init.lua</code> to link the <code>flutter.lua</code></p>
+<pre tabindex="0"><code>require(&#39;flutter&#39;)
+</code></pre><p>Flutter related features given by this plugin are,FlutterRun,FlutterDevices,
+FlutterEmulators,FlutterReload,FlutterRestar,FlutterQuit,FlutterOutline,
+FlutterDevTools etc.It has telescope integration also. For details check the site.
+You can create key bindings for these commands as I have done.</p>
+<pre tabindex="0"><code>vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;fr&#39;,&#39;:FlutterRun&lt;CR&gt;&#39;
+, { noremap = true, silent = true })
+vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;fc&#39;,
+[[&lt;Cmd&gt;lua require(&#39;telescope&#39;).extensions.flutter.commands()&lt;CR&gt;]],
+{ noremap = true, silent = true })
+</code></pre><p>Note: I had a file called telescope.lua for my telescope plugin which was
+causing issues with flutter telescope extension.So I renamed the file
+telescope_plugin and its working fine now.</p>
+<p>You can add individual bindings for Hot restart etc in similar way.Check
+<a href="https://github.com/akinsho/flutter-tools.nvim">Flutter-tools</a> page.</p>
+<p>Lets test the LSP is connected or not.I create a test_project for flutter.I
+deleted some lines in the <code>main.dart</code> to check if errors are coming.It was not
+detecting the errors.I searched and tried different things.Finally adding
+the dart sdk bin in the PATH variable solved it.</p>
+<pre tabindex="0"><code>C:\Users\jithu\Documents\flutter\bin\cache\dart-sdk\bin
+</code></pre><p>Now I can see the errors coming.So now the dart LSP is connected to NeoVim.</p>
+<p>Things to consider.</p>
+<ol>
+<li>flutter tools does not depend on nvim-lspconfig. The two can co-exist but
+please ensure you do NOT configure dartls using lspconfig. It will be
+automatically set up by this plugin instead. So the dart LSP is automatically
+setup and connected to Neovim LSP client by flutter tools.
+2)This plugin does not give auto-complete,code action,formatting options.These
+need to be configured separately which we will be doing in the below steps.</li>
+</ol>
+<h2 id="auto-completion-and-snippets">Auto Completion and Snippets</h2>
+<p>We can add any autocompletion plugin and snippets plugin.I am planning to use
+autocompletion plugin <a href="https://github.com/hrsh7th/nvim-compe">nvim compe</a>
+and a snippets plugins <a href="https://github.com/hrsh7th/vim-vsnip">vim-snip</a>.The
+snippets plugin has support to create snippets similar to VS code snippets.So I
+can copy the common VS code snippets available for dart and flutter.</p>
+<p>So install both the plugins using the below command</p>
+<pre tabindex="0"><code>&#39;hrsh7th/nvim-compe&#39;
+&#39;hrsh7th/vim-vsnip&#39;
+&#39;hrsh7th/vim-vsnip-integ&#39;
+</code></pre><h3 id="auto-completion">Auto Completion</h3>
+<p>Now lets setup the auto completion plugin we have installed.I created a file
+called <code>compe_snippets.lua</code> under lua folder and added the below lines in it.
+This last lines will allow tab completion.Also check the source which nvim-compe
+uses.Since I plan to use vsnip.I have setup that as true.If you have some other
+snippets you can use that.</p>
+<pre tabindex="0"><code>vim.o.completeopt = &#34;menuone,noselect&#34;
+vim.api.nvim_set_keymap(&#34;i&#34;, &#34;&lt;CR&gt;&#34;, &#34;compe#confirm({ &#39;keys&#39;: &#39;&lt;CR&gt;&#39;, &#39;select&#39;: v:true })&#34;,
+{ expr = true })
+
+require&#39;compe&#39;.setup {
+  enabled = true;
+  autocomplete = true;
+  debug = false;
+  min_length = 1;
+  preselect = &#39;enable&#39;;
+  throttle_time = 80;
+  source_timeout = 200;
+  resolve_timeout = 800;
+  incomplete_delay = 400;
+  max_abbr_width = 100;
+  max_kind_width = 100;
+  max_menu_width = 100;
+  documentation = {
+    border = { &#39;&#39;, &#39;&#39; ,&#39;&#39;, &#39; &#39;, &#39;&#39;, &#39;&#39;, &#39;&#39;, &#39; &#39; }, -- the border option is the same as `|help nvim_open_win|`
+    winhighlight = &#34;NormalFloat:CompeDocumentation,FloatBorder:CompeDocumentationBorder&#34;,
+    max_width = 120,
+    min_width = 60,
+    max_height = math.floor(vim.o.lines * 0.3),
+    min_height = 1,
+  };
+
+   source = {
+    path = true;
+    buffer = true;
+    calc = true;
+    nvim_lsp = true;
+    nvim_lua = true;
+    vsnip = true;
+    ultisnips = false;
+    luasnip = false;
+  };                                                                                              }
+local t = function(str)
+  return vim.api.nvim_replace_termcodes(str, true, true, true)
+end
+
+local check_back_space = function()
+    local col = vim.fn.col(&#39;.&#39;) - 1
+    return col == 0 or vim.fn.getline(&#39;.&#39;):sub(col, col):match(&#39;%s&#39;) ~= nil
+end
+-- Use (s-)tab to:
+--- move to prev/next item in completion menuone
+--- jump to prev/next snippet&#39;s placeholder
+_G.tab_complete = function()
+  if vim.fn.pumvisible() == 1 then
+    return t &#34;&lt;C-n&gt;&#34;
+  elseif vim.fn[&#39;vsnip#available&#39;](1) == 1 then
+    return t &#34;&lt;Plug&gt;(vsnip-expand-or-jump)&#34;
+  elseif check_back_space() then
+    return t &#34;&lt;Tab&gt;&#34;
+  else
+    return vim.fn[&#39;compe#complete&#39;]()                                                               end
+end
+_G.s_tab_complete = function()
+  if vim.fn.pumvisible() == 1 then
+    return t &#34;&lt;C-p&gt;&#34;
+  elseif vim.fn[&#39;vsnip#jumpable&#39;](-1) == 1 then
+    return t &#34;&lt;Plug&gt;(vsnip-jump-prev)&#34;
+  else
+    -- If &lt;S-Tab&gt; is not working in your terminal, change it to &lt;C-h&gt;
+    return t &#34;&lt;S-Tab&gt;&#34;
+  end
+end
+
+vim.api.nvim_set_keymap(&#34;i&#34;, &#34;&lt;Tab&gt;&#34;, &#34;v:lua.tab_complete()&#34;, {expr = true})
+vim.api.nvim_set_keymap(&#34;s&#34;, &#34;&lt;Tab&gt;&#34;, &#34;v:lua.tab_complete()&#34;, {expr = true})
+vim.api.nvim_set_keymap(&#34;i&#34;, &#34;&lt;S-Tab&gt;&#34;, &#34;v:lua.s_tab_complete()&#34;, {expr = true})
+vim.api.nvim_set_keymap(&#34;s&#34;, &#34;&lt;S-Tab&gt;&#34;, &#34;v:lua.s_tab_complete()&#34;, {expr = true})
+</code></pre><p>Also in <code>init.lua</code> I added the below line to link <code>compe.lua</code></p>
+<pre tabindex="0"><code>require(&#39;compe&#39;)
+</code></pre><h3 id="snippets">Snippets</h3>
+<p>I am using <a href="https://github.com/hrsh7th/vim-vsnip">vsnip</a> for snippets.It allows
+to use VS code snippets.So I have taken the snippets from
+<a href="https://github.com/Dart-Code/Dart-Code/tree/master/snippets">Dart-code</a> for VS
+code.</p>
+<p>To enable snippet support in LSP I modified the <code>flutter.lua</code> like this</p>
+<pre tabindex="0"><code>local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities.textDocument.completion.completionItem.snippetSupport = true;
+
+require(&#34;flutter-tools&#34;).setup{
+
+lsp = {
+    capabilities = capabilities,                                                                    }
+
+}
+</code></pre><p>So next I have given the path where snippets will be stored as below</p>
+<pre tabindex="0"><code>vim.g.vsnip_snippet_dir = &#39;C:\\Users\\jithu\\AppData\\Local\\nvim\\snippets\\&#39;;
+</code></pre><p>You give the path where you want to store.</p>
+<p>Then to create snippets follow the below steps</p>
+<pre tabindex="0"><code>Open some file (example: main.dart)
+Invoke :VsnipOpen command.
+Edit snippet.
+Then save
+</code></pre><h3 id="syntax-highlighting-and-formatting">Syntax highlighting and formatting</h3>
+<h3 id="syntax-highlighting">Syntax highlighting</h3>
+<p>For syntax highlighting we will be using the <a href="https://github.com/dart-lang/dart-vim-plugin">dart-vim-plugin</a>
+plugin.Install by adding the below line in the <code>plugins.lua</code> file then quite and
+open Neovim and :PaqInstall.</p>
+<pre tabindex="0"><code>&#39;dart-lang/dart-vim-plugin&#39;;
+</code></pre><p>Also some color schemes do not have LSP diagnostics highlighting or are changed
+by the color schemes.So I added the below in <code>colorscheme.lua</code> at the end.</p>
+<pre tabindex="0"><code>vim.cmd([[ autocmd ColorScheme * :lua require(&#39;vim.lsp.diagnostic&#39;)._define_default_signs_and_highlights() ]])
+</code></pre><p>Source:<a href="https://github.com/neovim/nvim-lspconfig/issues/516">https://github.com/neovim/nvim-lspconfig/issues/516</a></p>
+<h3 id="formatting">Formatting</h3>
+<p>The same plugin has a formatting command <code>:DartFmt</code>.So for auto formatting on
+save I added the below lines in <code>flutter.lua</code></p>
+<pre tabindex="0"><code>-- autoformat on save
+vim.cmd &#39;au BufWritePre *.dart :DartFmt&#39;
+</code></pre><h2 id="changing-the-lsp-diagnostic-appearance">Changing the LSP Diagnostic appearance</h2>
+<p>So we can use the below lines to change the LSP Diagnostic appearance.I added
+these line in my &lsquo;flutter.lua&rsquo;</p>
+<pre tabindex="0"><code>-- LSP Enable diagnostics
+ vim.lsp.handlers[&#34;textDocument/publishDiagnostics&#34;] =
+    vim.lsp.with(vim.lsp.diagnostic.on_publish_diagnostics, {
+        virtual_text = false,
+        underline = true,
+        signs = true,
+        update_in_insert = false
+   })
+</code></pre><p>I have disabled virtual text.You can keep it if you want.</p>
+<h2 id="code-action-and-ui-changes">Code Action and UI changes.</h2>
+<p>For code action and some UI changes I am using the <a href="https://github.com/glepnir/lspsaga.nvim">lspsaga</a>
+plugin.Add the below line in <code>plugins.lua</code> quit and start Neovim and the
+:PaqInstall to install</p>
+<pre tabindex="0"><code>--  lsp plugin based on neovim built-in lsp
+   &#39;glepnir/lspsaga.nvim&#39;;
+</code></pre><p>Next to change the symbols and code action bindings using lspsaga ,added the
+below lines in <code>flutter.lua</code></p>
+<pre tabindex="0"><code>local saga = require &#39;lspsaga&#39;
+saga.init_lsp_saga {
+error_sign = &#39;➤&#39;,
+warn_sign = &#39;➤&#39;,
+hint_sign = &#39;➤&#39;,
+infor_sign = &#39;➤&#39;,
+code_action_icon = &#39;&#39;,
+code_action_keys = {
+  quit = &#39;&lt;ESC&gt;&#39;,exec = &#39;&lt;CR&gt;&#39;
+  },
+}
+vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;ca&#39;,&#39;:Lspsaga code_action&lt;CR&gt;&#39;,
+{ noremap = true, silent = true })
+vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;fe&#39;,&#39;:Lspsaga diagnostic_jump_next&lt;CR&gt;&#39;,
+{ noremap = true, silent = true })
+</code></pre><p>You can add more keybindings as necessary by referring to <a href="https://github.com/glepnir/lspsaga.nvim">lspsaga</a>
+page.</p>
+<p>You can find the youtube video for the above steps below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/jt83rWqo9co" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Fluter IDE with Neovim 0.5 ,built in LSP and lua"></iframe>
+</div>
+
+
+
+      </main>
+    </div>
+  </body>
+</html>

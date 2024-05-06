@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/custom.js" defer></script>
+  </head>
+  <body>
+    <div class="menu_icon_box" onclick="toggleSideBar(this)">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="header_heading">Notes</h3>
+      </div>
+
+      {{ partial "sidebar.html" }}
+      <main class="content">
+        {{ block "main" . }}
+        {{ end }}
+      </main>
+    </div>
+  </body>
+</html>

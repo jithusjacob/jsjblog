@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/custom.js" defer></script>
+  </head>
+  <body>
+    <div class="menu_icon_box" onclick="toggleSideBar(this)">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="header_heading">Notes</h3>
+      </div>
+
+      <aside class="sidebar">
+  <nav>
+    <h3 class="sidebar_heading">Note Books</h3>
+
+    
+    
+      
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+      
+      
+    
+
+    
+      <ul class="books">
+        <li>
+          <a
+            data-level-id="programming"
+            data-level-class="books"
+            onclick="downLevel(this)"
+            href="#!">
+            Programming
+          </a>
+        </li>
+      </ul>
+      <ul class="sections" id="programming">
+        <li>
+          <a
+            href="#!"
+            data-parent-class="books"
+            data-level-class="sections"
+            onclick="upLevel(this)"
+            >&lt;&lt;</a
+          >
+        </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="flutterprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Flutter</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="vimprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Vim</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="Gitprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Git</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="hugoprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Hugo</a
+            >
+          </li>
+        
+
+      </ul>
+    
+
+    
+      
+        
+        <ul class="pages" id="flutterprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Flutter theme and responsive UI"
+                      href="/pages/flutter_theme_responsive_ui/"
+                      >Flutter theme and responsive UI</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows"
+                      href="/pages/fluter_ide_with_lua_lsp_neovim_0.5/"
+                      >Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Setup Vim as a Flutter IDE using coc-nvim on windows"
+                      href="/pages/vim_flutter_ide/"
+                      >Setup Vim as a Flutter IDE using coc-nvim on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="vimprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Creating Vim binding for checkbox using regex for lua configuration"
+                      href="/pages/vim_checkbox_lua/"
+                      >Creating Vim binding for checkbox using regex for lua configuration</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Vim folding to arrange NeoVim config file"
+                      href="/pages/vim_folding/"
+                      >Vim folding to arrange NeoVim config file</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Install Neovim on Windows"
+                      href="/pages/neovim_install/"
+                      >Install Neovim on Windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="Gitprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Storing Dotfiles on git repository using git orphan branches"
+                      href="/pages/dotfiles_using_git_orphan_branches/"
+                      >Storing Dotfiles on git repository using git orphan branches</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="hugoprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Hugo with Git Hub Pages on Windows"
+                      href="/pages/hugo_githubpages_window/"
+                      >Hugo with Git Hub Pages on Windows</a
+                    >
+                  </li>
+                
+              
+            
+
+          
+
+        </ul>
+      
+    
+
+  </nav>
+</aside>
+
+      <main class="content">
+        
+  <h2>Creating Vim binding for checkbox using regex for lua configuration</h2>
+  <span class="date">
+    31 Jul 2021
+  </span>
+  <p>So I have todo list in my vim notes and I wanted to create vim bindings to
+create checkbox ,close checkbox,open checkbox.I found a article by
+<a href="https://marcelfischer.eu/blog/2019/checkbox-regex/">marcelfischer</a> which had a
+similar requirement.He had used regex to do so.I decided to do the same for my
+lua configuration.</p>
+<h1 id="requirement">Requirement</h1>
+<p>If there is item with <code>*</code> then we need to add a checkbox</p>
+<pre tabindex="0"><code>* todo item 1
+*
+</code></pre><p>will change into</p>
+<pre tabindex="0"><code>
+* [ ]todo item 1
+* [ ]
+</code></pre><p>If there is checkbox we should be able to close the same</p>
+<pre tabindex="0"><code>* [x]todo item 1
+* [x]
+</code></pre><p>Also we should be able to open the closed checkboxes</p>
+<h1 id="regex-for-identifying-the-pattern">Regex for identifying the pattern</h1>
+<p>So the regex to identify <code>* </code> or <code>* [ ]</code> or <code>* [x]</code>will be as below</p>
+<pre tabindex="0"><code>\*\s(\[\s\]|\[x\]|)*
+</code></pre><p>and to identify closed checkbox will be</p>
+<pre tabindex="0"><code>\*\s(\[x\]|)*
+</code></pre><h1 id="vim-substitute-command">Vim substitute command</h1>
+<p>To create the vim key bindings for our requirement we will using the vim
+substitute command for single line</p>
+<pre tabindex="0"><code>:s/pattern/text/
+</code></pre><p>Here the pattern will be the regex for the pattern.So two commands will be</p>
+<pre tabindex="0"><code>:s/\v\*\s(\[\s\]|\[x\]|)*/* [ ]/
+</code></pre><p>Here we added an extra <code>\v</code> in the regex.This to handle groups <code>()</code> in regex in
+vim.Check out this <a href="https://stackoverflow.com/questions/19902089/vim-regex-capture-groups-bau-byau-ceu-cyeu">stack
+overflow</a>
+question for more details.</p>
+<h1 id="keybindings-in-vim-lua-configuration">Keybindings in vim lua configuration</h1>
+<p>So next I created two vim keybindings for lua configuration.</p>
+<p>To create or open checkbox</p>
+<pre tabindex="0"><code>vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;to&#39;,&#39;:s/\\v\\*\\s(\\[\\s\\]|\\[x\\]|)/* [ ]/&lt;CR&gt;&#39;,
+{ noremap = true, silent = true })
+</code></pre><p>To close checkbox</p>
+<pre tabindex="0"><code>vim.api.nvim_set_keymap(&#39;n&#39;, &#39;&lt;Leader&gt;tc&#39;,&#39;:s/\\v\\*(\\s\\[\\s\\])/* [x]/&lt;CR&gt;&#39;,
+{ noremap = true, silent = true })
+</code></pre><p>Here you can see we have added a extra escape character <code>\</code> to the regex.This is
+because lua parser will give error for escape character for regex.Checkout more
+details in the <a href="https://stackoverflow.com/questions/53729699/invalid-escape-sequence-lua-regex">stack overflow
+question</a>.</p>
+<p>You can find the youtube video for the above steps below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/n44_MprLQp8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Vim folding to arrange NeoVim config file"></iframe>
+</div>
+
+
+
+      </main>
+    </div>
+  </body>
+</html>

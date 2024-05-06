@@ -1,0 +1,7 @@
+{{ define "main" }}
+  {{ range where .Site.RegularPages "Section" "post" }}
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <p class="intro">{{ .Summary }}</p>
+    <br />
+  {{ end }}
+{{ end }}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lua on jsj&#39;s notebook</title>
+    <link>http://localhost:1313/tags/lua/</link>
+    <description>Recent content in Lua on jsj&#39;s notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Aug 2021 09:49:50 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</title>
+      <link>http://localhost:1313/post/fluter_ide_with_lua_lsp_neovim_0.5/</link>
+      <pubDate>Mon, 02 Aug 2021 09:49:50 +0530</pubDate>
+      <guid>http://localhost:1313/post/fluter_ide_with_lua_lsp_neovim_0.5/</guid>
+      <description>Introduction So I recently upgraded to NeoVim 0.5 stable release.This release has a inbuilt LSP(Language server protocol) which is a client to LSP servers.It also includes a Lua framework for building enhanced LSP tools.&#xA;I used coc-nvim earlier as LSP client to interact with Dart LSP server which it does automatically using coc-flutter extension.If you want to know how to do that read my previous blog post for more details.</description>
+    </item>
+    <item>
+      <title>Creating Vim binding for checkbox using regex for lua configuration</title>
+      <link>http://localhost:1313/post/vim_checkbox_lua/</link>
+      <pubDate>Sat, 31 Jul 2021 13:07:21 +0530</pubDate>
+      <guid>http://localhost:1313/post/vim_checkbox_lua/</guid>
+      <description>So I have todo list in my vim notes and I wanted to create vim bindings to create checkbox ,close checkbox,open checkbox.I found a article by marcelfischer which had a similar requirement.He had used regex to do so.I decided to do the same for my lua configuration.&#xA;Requirement If there is item with * then we need to add a checkbox&#xA;* todo item 1 * will change into&#xA;* [ ]todo item 1 * [ ] If there is checkbox we should be able to close the same</description>
+    </item>
+  </channel>
+</rss>

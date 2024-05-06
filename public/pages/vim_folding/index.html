@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script type="text/javascript" src="/js/custom.js" defer></script>
+  </head>
+  <body>
+    <div class="menu_icon_box" onclick="toggleSideBar(this)">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <div class="wrapper">
+      <div class="header">
+        <h3 class="header_heading">Notes</h3>
+      </div>
+
+      <aside class="sidebar">
+  <nav>
+    <h3 class="sidebar_heading">Note Books</h3>
+
+    
+    
+      
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+        
+          
+        
+
+      
+      
+      
+    
+
+    
+      <ul class="books">
+        <li>
+          <a
+            data-level-id="programming"
+            data-level-class="books"
+            onclick="downLevel(this)"
+            href="#!">
+            Programming
+          </a>
+        </li>
+      </ul>
+      <ul class="sections" id="programming">
+        <li>
+          <a
+            href="#!"
+            data-parent-class="books"
+            data-level-class="sections"
+            onclick="upLevel(this)"
+            >&lt;&lt;</a
+          >
+        </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="flutterprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Flutter</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="vimprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Vim</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="Gitprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Git</a
+            >
+          </li>
+        
+          
+
+
+          <li>
+            <a
+              data-level-id="hugoprogramming"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >Hugo</a
+            >
+          </li>
+        
+
+      </ul>
+    
+
+    
+      
+        
+        <ul class="pages" id="flutterprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Flutter theme and responsive UI"
+                      href="/pages/flutter_theme_responsive_ui/"
+                      >Flutter theme and responsive UI</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows"
+                      href="/pages/fluter_ide_with_lua_lsp_neovim_0.5/"
+                      >Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Setup Vim as a Flutter IDE using coc-nvim on windows"
+                      href="/pages/vim_flutter_ide/"
+                      >Setup Vim as a Flutter IDE using coc-nvim on windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="vimprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Creating Vim binding for checkbox using regex for lua configuration"
+                      href="/pages/vim_checkbox_lua/"
+                      >Creating Vim binding for checkbox using regex for lua configuration</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Vim folding to arrange NeoVim config file"
+                      href="/pages/vim_folding/"
+                      >Vim folding to arrange NeoVim config file</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Install Neovim on Windows"
+                      href="/pages/neovim_install/"
+                      >Install Neovim on Windows</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="Gitprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Storing Dotfiles on git repository using git orphan branches"
+                      href="/pages/dotfiles_using_git_orphan_branches/"
+                      >Storing Dotfiles on git repository using git orphan branches</a
+                    >
+                  </li>
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+
+          
+
+        </ul>
+      
+        
+        <ul class="pages" id="hugoprogramming">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="programming"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              >&lt;&lt;</a
+            >
+          </li>
+          
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+              
+            
+              
+                
+                  <li>
+                    <a
+                      data-level-id="Hugo with Git Hub Pages on Windows"
+                      href="/pages/hugo_githubpages_window/"
+                      >Hugo with Git Hub Pages on Windows</a
+                    >
+                  </li>
+                
+              
+            
+
+          
+
+        </ul>
+      
+    
+
+  </nav>
+</aside>
+
+      <main class="content">
+        
+  <h2>Vim folding to arrange NeoVim config file</h2>
+  <span class="date">
+    19 Jul 2021
+  </span>
+  <h3 id="folding-in-vim">Folding in vim</h3>
+<p>I have started using NeoVim as my editor.So I have added lot of configurations
+in my <code>init.vim</code> file.I keep updating the same when I find some new requirements.
+So I wanted to manage all the configurations related to NeoVim and
+its Plugins. I checked various ways and found that folding was one of the
+methods to do that.Folding is a way of collapsing a group of lines into a single
+line.This gives a uncluttered view and helps in focusing on a part of the page.
+Also we can perform actions like copy delete on the fold as we do on a single
+line.I am using the manual mode of folding. I will so visual selection and
+create a fold.So I split the <code>init.vim</code> into different sections and created
+the folds for the same. So some the commands I used are as below</p>
+<h3 id="commands-for-folding">Commands for folding</h3>
+<p><code>zf</code> - <strong>Apply fold to the selected lines</strong><br>
+<code>zo</code> - <strong>Open the folded lines</strong><br>
+<code>zc</code> - <strong>Close the open lines back to fold</strong><br>
+<code>zM</code> - <strong>Close all folds</strong><br>
+<code>zR</code> - <strong>Open all folds</strong><br>
+<code>zE</code> - <strong>Delete all the folds</strong><br>
+<code>zd</code> - <strong>Delete the fold under the cursor</strong></p>
+<h3 id="saving-folds-in-vim">Saving folds in vim</h3>
+<p>After creating folds.Once you close the buffer,the folds are lost.So to save the
+folds we need to give the below lines in our <code>init.vim</code></p>
+<pre tabindex="0"><code>augroup remember_folds
+  autocmd!
+  autocmd BufWinLeave * mkview
+  autocmd BufWinEnter * silent! loadview
+augroup END
+</code></pre><p>Source <a href="https://stackoverflow.com/questions/37552913/vim-how-to-keep-folds-on-save">stackOverflow</a></p>
+<p>You can find the youtube video for the above steps below</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/6iYDUHCJOBU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Vim folding to arrange NeoVim config file"></iframe>
+</div>
+
+
+
+      </main>
+    </div>
+  </body>
+</html>

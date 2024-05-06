@@ -1,0 +1,93 @@
+<aside class="sidebar">
+  <nav>
+    <h3 class="sidebar_heading">Note Books</h3>
+
+    {{ $bookmap := dict }}
+    {{ range $taxonomyname,$taxonomypages:=site.Taxonomies.books }}
+      {{ $slice := slice }}
+      {{ range $weightpage:=$taxonomypages }}
+        {{ range $sections:=$weightpage.Params.sections }}
+          {{ $slice = $slice| append $sections }}
+        {{ end }}
+
+      {{ end }}
+      {{ $uniqueTags :=$slice | uniq }}
+      {{ $bookmap = merge $bookmap (dict $taxonomyname $uniqueTags) }}
+    {{ end }}
+
+    {{ range $book,$sections := $bookmap }}
+      <ul class="books">
+        <li>
+          <a
+            data-level-id="{{ replaceRE "(\\s)" "" $book }}"
+            data-level-class="books"
+            onclick="downLevel(this)"
+            href="#!">
+            {{ $book | title }}
+          </a>
+        </li>
+      </ul>
+      <ul class="sections" id="{{ replaceRE "(\\s)" "" $book }}">
+        <li>
+          <a
+            href="#!"
+            data-parent-class="books"
+            data-level-class="sections"
+            onclick="upLevel(this)"
+            ><<</a
+          >
+        </li>
+        {{ range $section :=$sections }}
+          {{ $sectionbook :=(print $section $book) }}
+
+
+          <li>
+            <a
+              data-level-id="{{ replaceRE "(\\s)" "" $sectionbook }}"
+              data-level-class="sections"
+              onclick="downLevel(this)"
+              href="#!"
+              >{{ $section | title }}</a
+            >
+          </li>
+        {{ end }}
+
+      </ul>
+    {{ end }}
+
+    {{ range $book,$sections := $bookmap }}
+      {{ range $section :=$sections }}
+        {{ $sectionbook :=(print $section $book) }}
+        <ul class="pages" id="{{ replaceRE "(\\s)" "" $sectionbook }}">
+          <li>
+            <a
+              href="#!"
+              data-parent-id="{{ replaceRE "(\\s)" "" $book }}"
+              data-level-class="pages"
+              onclick="upLevel2(this)"
+              ><<</a
+            >
+          </li>
+          {{ range $weightpages:= site.Taxonomies.books.ByCount }}
+            {{ range $weightpage := $weightpages.Pages }}
+              {{ range $section1:=$weightpage.Params.sections }}
+                {{ if and (eq $section1 $section) (eq $book $weightpages.Term) }}
+                  <li>
+                    <a
+                      data-level-id="{{ $weightpage.Params.title }}"
+                      href="{{ $weightpage.RelPermalink }}"
+                      >{{ $weightpage.Params.title }}</a
+                    >
+                  </li>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+
+          {{ end }}
+
+        </ul>
+      {{ end }}
+    {{ end }}
+
+  </nav>
+</aside>

@@ -2,8 +2,9 @@
 title: "Install Neovim on Windows"
 date: 2021-06-15T13:10:20+05:30
 draft: false
-tags: ["Vim","Windows","NeoVim"]
-categories: ["Vim","Windows","NeoVim"]
+tags: ["Vim", "Windows", "NeoVim"]
+sections: ["vim"]
+books: ["programming"]
 ---
 
 I had wanted to use vim as my editor for a long time.So in the lockdown time I
@@ -18,6 +19,7 @@ Ensure you use the terminal with `Run as administrator`.
 ```
 choco install neovim
 ```
+
 ### Setting up init.vim
 
 After installing Neovim .I needed to setup the `init.vim` for different Neovim
@@ -46,6 +48,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 Plug 'jiangmiao/auto-pairs'
 call plug#end()
 ```
+
 Here we have specified the directory for plugins as `plugged` folder where
 init.vim exits.We can give the list of plugins between the two call commands
 using `Plug` command.Next we reloaded `init.vim` and used `:PlugInstall` to

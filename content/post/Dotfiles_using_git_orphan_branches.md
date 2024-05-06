@@ -1,10 +1,20 @@
 ---
+
 title: "Storing Dotfiles on git repository using git orphan branches"
 date: 2021-07-26T10:54:57+05:30
 draft: false
-tags: ["Neovim","Git","Windows","Orphan branch","empty repository","clone
-without folder"]
-categories: ["Neovim","Git","Windows"]
+tags: [
+"Neovim",
+"Git",
+"Windows",
+"Orphan branch",
+"empty repository",
+"clone
+without folder",
+]
+sections: ["Git"]
+books: ["programming"]
+
 ---
 
 So recently Neovim 0.5 version was released with in built LSP(Language Server
@@ -14,7 +24,6 @@ GitHub.I googled and found that people have dot files repository where they
 store all the configuration files.So I decided to follow the same approach.I
 used the git orphan branches to store different configuration files.So they are
 independent of each other and can be tracked separately.
-
 
 ### Creating a empty dotfile repository
 
@@ -36,15 +45,18 @@ configuration folder without the dotfiles folder using the below commands
 
 ```
 git init
-git remote add origin https://github.com/jithusjacob/dotfiles.git 
+git remote add origin https://github.com/jithusjacob/dotfiles.git
 ```
+
 If there no files in the existing folder we can also used the below command
+
 ```
 git clone https://github.com/jithusjacob/dotfiles.git .
 ```
+
 ### Creating the first Orphan git branch
 
-An orphan branch is a branch which starts with a  different root commit.So it
+An orphan branch is a branch which starts with a different root commit.So it
 will not have any history when created and the first commit in this branch will
 be the root of this branch.So this branch will be a independent branch without
 any relation to any of the available branches.So lets create the new orphan
@@ -64,10 +76,10 @@ So now if I want to clone these files I can use the below command
 git clone --branch nvim_lsp_lua https://github.com/jithusjacob/dotfiles.git .
 ```
 
-Some other commands that might be required  are as below    
+Some other commands that might be required are as below  
 **git push -d origin <branch_name>** -- To delete a branch from remote  
 **git branch -r** -- To list the branches  
-**git branch** -- To check the current branch  
+**git branch** -- To check the current branch
 
 ### Repeating the above steps for second orphan branch
 
@@ -76,8 +88,6 @@ Neovim configuration files.I now have two orphan branches independent of each
 other.So in future I have some other configuration files ,I will create a new
 orphan branch for that.
 
-
-You can also see the above steps in my youtube video 
-
+You can also see the above steps in my youtube video
 
 {{< youtube id="QqRKUYUMcxY" title="Hugo with Git Hub Pages on Windows" >}}

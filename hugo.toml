@@ -1,0 +1,10 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "jsj's notebook"
+preserveTaxonomyNames = 'true'
+[taxonomies]
+  tag = 'tags'
+  book = 'books'
+  section = 'sections'
+[params]
+    dateFormat = "02 Jan 2006"

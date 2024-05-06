@@ -2,15 +2,16 @@
 title: "Vim folding to arrange NeoVim config file"
 date: 2021-07-19T16:09:06+05:30
 draft: false
-tags: ["Vim","Folding","NeoVim"]
-categories: ["Vim","Folding","NeoVim"]
+tags: ["Vim", "Folding", "NeoVim"]
+sections: ["vim"]
+books: ["programming"]
 ---
 
 ### Folding in vim
 
 I have started using NeoVim as my editor.So I have added lot of configurations
-in my `init.vim` file.I keep updating the same when I find some new
-requirements. So I wanted to manage all the configurations related to NeoVim and
+in my `init.vim` file.I keep updating the same when I find some new requirements.
+So I wanted to manage all the configurations related to NeoVim and
 its Plugins. I checked various ways and found that folding was one of the
 methods to do that.Folding is a way of collapsing a group of lines into a single
 line.This gives a uncluttered view and helps in focusing on a part of the page.
@@ -27,7 +28,7 @@ the folds for the same. So some the commands I used are as below
 `zM` - **Close all folds**  
 `zR` - **Open all folds**  
 `zE` - **Delete all the folds**  
-`zd` - **Delete the fold under the cursor**  
+`zd` - **Delete the fold under the cursor**
 
 ### Saving folds in vim
 

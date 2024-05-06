@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NeoVim on jsj&#39;s notebook</title>
+    <link>http://localhost:1313/tags/neovim/</link>
+    <description>Recent content in NeoVim on jsj&#39;s notebook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Aug 2021 09:49:50 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/neovim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fluter IDE with Neovim 0.5 ,built in LSP and lua on windows</title>
+      <link>http://localhost:1313/post/fluter_ide_with_lua_lsp_neovim_0.5/</link>
+      <pubDate>Mon, 02 Aug 2021 09:49:50 +0530</pubDate>
+      <guid>http://localhost:1313/post/fluter_ide_with_lua_lsp_neovim_0.5/</guid>
+      <description>Introduction So I recently upgraded to NeoVim 0.5 stable release.This release has a inbuilt LSP(Language server protocol) which is a client to LSP servers.It also includes a Lua framework for building enhanced LSP tools.&#xA;I used coc-nvim earlier as LSP client to interact with Dart LSP server which it does automatically using coc-flutter extension.If you want to know how to do that read my previous blog post for more details.</description>
+    </item>
+    <item>
+      <title>Creating Vim binding for checkbox using regex for lua configuration</title>
+      <link>http://localhost:1313/post/vim_checkbox_lua/</link>
+      <pubDate>Sat, 31 Jul 2021 13:07:21 +0530</pubDate>
+      <guid>http://localhost:1313/post/vim_checkbox_lua/</guid>
+      <description>So I have todo list in my vim notes and I wanted to create vim bindings to create checkbox ,close checkbox,open checkbox.I found a article by marcelfischer which had a similar requirement.He had used regex to do so.I decided to do the same for my lua configuration.&#xA;Requirement If there is item with * then we need to add a checkbox&#xA;* todo item 1 * will change into&#xA;* [ ]todo item 1 * [ ] If there is checkbox we should be able to close the same</description>
+    </item>
+    <item>
+      <title>Storing Dotfiles on git repository using git orphan branches</title>
+      <link>http://localhost:1313/post/dotfiles_using_git_orphan_branches/</link>
+      <pubDate>Mon, 26 Jul 2021 10:54:57 +0530</pubDate>
+      <guid>http://localhost:1313/post/dotfiles_using_git_orphan_branches/</guid>
+      <description>So recently Neovim 0.5 version was released with in built LSP(Language Server Protocol) and Lua language support. So I modifed my init.vim with &amp;lsquo;coc-nvim&amp;rsquo; to init.lua and the in built LSP.I want to save both the config files in GitHub.I googled and found that people have dot files repository where they store all the configuration files.So I decided to follow the same approach.I used the git orphan branches to store different configuration files.</description>
+    </item>
+    <item>
+      <title>Vim folding to arrange NeoVim config file</title>
+      <link>http://localhost:1313/post/vim_folding/</link>
+      <pubDate>Mon, 19 Jul 2021 16:09:06 +0530</pubDate>
+      <guid>http://localhost:1313/post/vim_folding/</guid>
+      <description>Folding in vim I have started using NeoVim as my editor.So I have added lot of configurations in my init.vim file.I keep updating the same when I find some new requirements. So I wanted to manage all the configurations related to NeoVim and its Plugins. I checked various ways and found that folding was one of the methods to do that.Folding is a way of collapsing a group of lines into a single line.</description>
+    </item>
+    <item>
+      <title>Install Neovim on Windows</title>
+      <link>http://localhost:1313/post/neovim_install/</link>
+      <pubDate>Tue, 15 Jun 2021 13:10:20 +0530</pubDate>
+      <guid>http://localhost:1313/post/neovim_install/</guid>
+      <description>I had wanted to use vim as my editor for a long time.So in the lockdown time I gave it a try.I installed NeoVim on windows.Below are the steps for that&#xA;Install Neovim using chocolatey So I use chocolatey package manager for installing different software on windows.I installed the Neovim also using chocolatey with the below command. Ensure you use the terminal with Run as administrator.&#xA;choco install neovim Setting up init.</description>
+    </item>
+  </channel>
+</rss>
